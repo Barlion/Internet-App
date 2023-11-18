@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/submit_form" method="post">
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="JAMES SMART"><br>
+  <label for="course">Course</label><br>
+  <select id="course" name="course">
+    <option value="BICTM">BICTM</option>
+    <option value="Comp Scie">Comp Scie</option>
+    <option value="BBIT">BBIT</option>
+    <option value="BIT">BIT</option>
+  </select><br>
+  <label for="age">Age</label><br>
+  <input type="number" id="age" name="age" placeholder="22"><br>
+  <label for="course">Gender</label><br>
+  <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select><br>
+  <label for="nationality">Nationality</label><br>
+  <input type="radio" id="Kenyan" name="nationality" value="Kenyan"> Kenyan<br>
+  <input type="radio" id="Ugandan" name="nationality" value="Ugandan"> Ugandan<br>
+  <input type="radio" id="Tanzanian" name="nationality" value="Tanzanian"> Tanzanian<br>
+  <label for="mode">Mode</label><br>
+  <input type="checkbox" id="Daytime" name="mode" value="Daytime"> Daytime<br>
+  <input type="checkbox" id="Week End" name="mode" value="Week End"> Week End<br>
+  <input type="checkbox" id="Evening" name="mode" value="Evening"> Evening<br>
+  <label for="fileInput">UpLoad</label><br>
+        <input type="file" id="fileInput" name="fileInput" accept=".pdf, .doc, .docx"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

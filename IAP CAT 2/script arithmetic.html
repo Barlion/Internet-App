@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Simple Arithmetic</h2>
+
+<p>Click the "Try it" button to perform an addition operation:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var num1 = parseInt(prompt("Please enter the first number:"));
+  var num2 = parseInt(prompt("Please enter the second number:"));
+  var sum = num1 + num2;
+  document.getElementById("demo").innerHTML = "The sum of " + num1 + " and " + num2 + " is " + sum + ".";
+}
+</script>
+
+</body>
+</html>
